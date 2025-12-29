@@ -43,14 +43,16 @@ class InferenceClient extends HfInference {
         "moonshotai/Kimi-K2-Instruct": "groq",
         "moonshotai/Kimi-K2-Instruct-0905": "novita",
 
-        "CohereLabs/command-a-translate-08-2025": "cohere",
-
-        "google/gemma-3-27b-it": "hf-inference",
         "zai-org/GLM-4.5": "fireworks-ai",
         "zai-org/GLM-4.6": "novita",
         "zai-org/GLM-4.7": "novita",
-        "shisa-ai/shisa-v2-llama3.3-70b": "featherless-ai",
+
+        "MiniMaxAI/MiniMax-M2.1": "novita",
+        "CohereLabs/command-a-translate-08-2025": "cohere",
+
+        "google/gemma-3-27b-it": "hf-inference",
         "meta-llama/Llama-3.3-70B-Instruct": "fireworks-ai",
+        "shisa-ai/shisa-v2-llama3.3-70b": "featherless-ai",
     }
     constructor(private apiKey: string) { 
         super(apiKey)
