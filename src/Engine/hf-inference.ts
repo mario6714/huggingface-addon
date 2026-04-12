@@ -25,6 +25,7 @@ class InferenceClient extends HfInference {
     public static InferenceModels: Record<string, InferenceProvider> = { 
         "MiniMaxAI/MiniMax-M2.1": "novita",
         "MiniMaxAI/MiniMax-M2.5": "novita",
+        "MiniMaxAI/MiniMax-M2.7": "novita",
 
         "deepseek-ai/DeepSeek-R1": "fireworks-ai",
         "deepseek-ai/DeepSeek-R1-0528": "fireworks-ai",
@@ -53,6 +54,7 @@ class InferenceClient extends HfInference {
         "zai-org/GLM-4.6": "novita",
         "zai-org/GLM-4.7": "novita",
         "zai-org/GLM-5": "novita",
+        "zai-org/GLM-5.1": "novita",
 
         "XiaomiMiMo/MiMo-V2-Flash": "novita",
         "CohereLabs/command-a-translate-08-2025": "cohere",
